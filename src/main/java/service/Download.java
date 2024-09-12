@@ -61,7 +61,6 @@ public class Download {
 
             String problemName = problem.getString("name").replaceAll("[^a-zA-Z0-9 ]", "");
             String javaFileName = toJavaClassName(problemName);
-            this.fileId = "";
 
             generateDefaultFiles(contestDir, javaFileName, fileType, contestName);
 
@@ -150,7 +149,7 @@ public class Download {
         String destinationFile = contestDir.getAbsolutePath() + File.separator + "problem_description.docx";
 
         try {
-            Unirest.get(url)
+            HttpResponse<File> accept = Unirest.get(url)
                     .header("Accept", "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
                     .asFile(destinationFile);
 
