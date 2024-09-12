@@ -14,5 +14,9 @@
 git clone https://github.com/Borovaneca/JudgeFileGenerator.git
 ```
 
+-
+
 ## 2. Стартиране на приложението чрез `FileGenerator.exe`
+
+### След като репозиторито е свалено, можете да стартирате приложението директно чрез изпълнимия файл `FileGenerator.exe`, който се намира в папката с проекта.
 
