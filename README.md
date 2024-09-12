@@ -14,7 +14,7 @@
 git clone https://github.com/Borovaneca/JudgeFileGenerator.git
 ```
 
--
+---
 
 ## 2. Стартиране на приложението чрез `FileGenerator.exe`
 
