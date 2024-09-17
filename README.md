@@ -21,6 +21,9 @@ git clone https://github.com/Borovaneca/JudgeFileGenerator.git
 ## 3. Логване в SoftUni
 
 При стартиране на приложението първо ще трябва да въведете вашето потребителско име и парола за SoftUni. Това е необходимо, за да се свърже приложението с вашия профил в системата Judge.
+<div align="center">
+  <img src="images/image.png" alt="Логване в Judge системата" width="200"/>
+</div>
 
 ## 4. Въвеждане на URL към задачите в Judge
 
