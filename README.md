@@ -41,7 +41,7 @@ https://alpha.judge.softuni.org/contests/for-loop-exercise/2394/compete
 След въвеждането на URL, приложението ще поиска да изберете директорията, където да създаде папката с файловете. Папката ще бъде наименувана според името на лекцията. Например, ако лекцията е First Steps In Coding - Lab, името на папката ще бъде `FirstStepsInCodingLab`.
 
 <div align="center">
-  <img src="https://github.com/Borovaneca/JudgeFileGenerator/blob/master/images/select_dir.png" alt="Линка към лекцията в Judge" width="200"/>
+  <img src="https://github.com/Borovaneca/JudgeFileGenerator/blob/master/images/select_dir.png" alt="Избиране на директория" width="200"/> <img src="https://github.com/Borovaneca/JudgeFileGenerator/blob/master/images/saved_dir.png" alt="Избраната директория" width="200"/>
 </div>
 
 ## 6. Генериране на файлове и шаблони
