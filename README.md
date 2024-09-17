@@ -26,9 +26,9 @@ git clone https://github.com/Borovaneca/JudgeFileGenerator.git
 
 След успешен логин ще трябва да въведете URL към задачите от съответната лекция в Judge системата. Пример за такъв URL е:
 ```bash
-https://alpha.judge.softuni.org/contests/first-steps-in-coding-lab/2339/compete
+https://alpha.judge.softuni.org/contests/for-loop-exercise/2394/compete
 ```
-Този линк ще изтегли задачите от лекцията C# First Steps In Coding - Lab.
+Този линк ще изтегли задачите от лекцията Java For Loop - Exercise.
 
 ## 5. Избор на път за записване на файловете
 
