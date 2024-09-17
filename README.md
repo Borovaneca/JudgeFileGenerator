@@ -47,6 +47,9 @@ https://alpha.judge.softuni.org/contests/for-loop-exercise/2394/compete
 ## 6. Генериране на файлове и шаблони
 
 За всяка задача от лекцията, приложението ще създаде файл, базиран на програмния език, за който е предназначена задачата. За всяка задача се генерира и файл с началния код (шаблон), който може да бъде различен в зависимост от езика на задачата.
+<div align="center">
+  <img src="https://github.com/Borovaneca/JudgeFileGenerator/blob/master/images/saved_files.png" alt="Линка към лекцията в Judge" width="200"/>
+</div>
 
 Примерен шаблон за Java:
 ```java
@@ -62,6 +65,9 @@ public class ClassName {
 ## 7. Успешно приключване
 
 След като въведете коректно потребителско име, парола и URL, и изберете пътя за записване на файловете, приложението ще извърши генерирането на файловете. Ако всичко е наред, на екрана ще се появи съобщение за успешна операция и приложението ще се затвори автоматично.
+<div align="center">
+  <img src="https://github.com/Borovaneca/JudgeFileGenerator/blob/master/images/completed.png" alt="Линка към лекцията в Judge" width="200"/>
+</div>
 
 # Стартиране чрез IntelliJ IDEA
 
