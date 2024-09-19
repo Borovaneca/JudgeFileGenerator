@@ -134,8 +134,7 @@ public class Login {
             json.put("username", username);
             json.put("password", password);
             file.write(json.toString());
-            System.out.println("Saving credentials to: " + credentialsFilePath);
-            JOptionPane.showMessageDialog(null, "Working directory: " + credentialsFilePath);
+            JOptionPane.showMessageDialog(null, "Credentials directory: " + credentialsFilePath);
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, "Failed to save credentials", "Error", JOptionPane.ERROR_MESSAGE);
         }
@@ -156,7 +155,7 @@ public class Login {
     }
 
     private void clearCredentials() {
-        File file = new File("credentials.json");
+        File file = new File(credentialsFilePath);
         if (file.exists()) {
             file.delete();
         }
