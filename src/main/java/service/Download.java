@@ -68,7 +68,7 @@ public class Download {
 
                 for (int j = 0; j < resources.length(); j++) {
                     JSONObject resource = resources.getJSONObject(j);
-                    if (resource.getString("name").equals("Условия")) {
+                    if (resource.getString("name").equals("Условия") || resource.getString("name").equals("Problem Description")) {
                         fileId = resource.getString("id");
                     }
                 }
